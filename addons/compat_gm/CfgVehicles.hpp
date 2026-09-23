@@ -726,7 +726,7 @@ class CfgVehicles {
         EGVAR(fastroping,ropeOrigins)[] = {{-1.34,0.695,-0.0757732},{1.34,0.695,-0.0973468}};
         EGVAR(fastroping,onCut) = QFUNC(onCut);
         // TODO: Review - onCutRopes/onDeployRopes are never read by ace_fastroping, so the swooper rope animations never play
-        EGVAR(fastroping,onCutRopes) = QFUNC(onCutRopes);
+        EGVAR(fastroping,onCut) = QFUNC(onCutRopes);
         EGVAR(fastroping,onDeployRopes) = QFUNC(onDeployRopes);
         EGVAR(fastroping,onPrepare) = QFUNC(onPrepare);
     };
