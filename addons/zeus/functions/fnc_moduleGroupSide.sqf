@@ -31,6 +31,7 @@ if ((allGroups findIf {side _x isEqualTo _newSide && {(groupId _oldGroup) isEqua
 };
 
 // Pretty hacky, will replace units return group with this new group if unconcious
+// TODO: Review - ace_medical_moveUnitsFromGroupOnUnconscious is no longer defined anywhere, so this branch never runs
 if (GETVAR(_unit,ACE_isUnconscious,false) && {GETMVAR(EGVAR(medical,moveUnitsFromGroupOnUnconscious),false)}) then {
     private _previousGroupsList = _unit getVariable [QEGVAR(common,previousGroupSwitchTo), []];
 
