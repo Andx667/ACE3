@@ -118,6 +118,7 @@ private _actionsCfg = configFile >> "CfgVehicles" >> _objectType >> "ACE_Actions
 TRACE_1("Building ACE_Actions",_objectType);
 private _actions = [_actionsCfg, 0] call _recurseFnc;
 
+// TODO: Review - ace_interaction_fnc_addPassengerAction does not exist (addPassengerActions or addPassengersActions?)
 // ace_interaction_fnc_addPassengerAction expects ACE_MainActions to be first
 // Other mods can change the order that configs are added, so we should verify this now and resort if needed
 if (_objectType isKindOf "CAManBase") then {
