@@ -109,21 +109,21 @@
             <Ukrainian>Сила відмички за замовчуванням</Ukrainian>
         </Key>
         <Key ID="STR_ACE_VehicleLock_DisplayName">
-            <English>ACE Vehicle Lock</English>
-            <Czech>ACE Zamykání Vozidel</Czech>
-            <French>ACE Verrouillage véhicule</French>
-            <Spanish>ACE Bloqueo de vehículo</Spanish>
-            <Italian>ACE Blocco Veicolo</Italian>
-            <Polish>ACE Zamknięcie Pojazdu</Polish>
-            <Portuguese>ACE Trancar Veículos</Portuguese>
-            <Russian>ACE Блокировка транспорта</Russian>
-            <German>ACE Fahrzeugsperre</German>
-            <Korean>ACE 차량 잠금</Korean>
-            <Japanese>ACE 車両の施錠</Japanese>
-            <Chinese>ACE 載具上鎖</Chinese>
-            <Chinesesimp>ACE 载具上锁</Chinesesimp>
-            <Turkish>ACE Araç Kilidi</Turkish>
-            <Ukrainian>ACE Блокування транспорту</Ukrainian>
+            <English>Vehicle Lock</English>
+            <Czech>Zamykání Vozidel</Czech>
+            <French>Verrouillage véhicule</French>
+            <Spanish>Bloqueo de vehículo</Spanish>
+            <Italian>Blocco Veicolo</Italian>
+            <Polish>Zamknięcie Pojazdu</Polish>
+            <Portuguese>Trancar Veículos</Portuguese>
+            <Russian>Блокировка транспорта</Russian>
+            <German>Fahrzeugsperre</German>
+            <Korean>차량 잠금</Korean>
+            <Japanese>車両の施錠</Japanese>
+            <Chinese>載具上鎖</Chinese>
+            <Chinesesimp>载具上锁</Chinesesimp>
+            <Turkish>Araç Kilidi</Turkish>
+            <Ukrainian>Блокування транспорту</Ukrainian>
         </Key>
         <Key ID="STR_ACE_VehicleLock_Item_Civ_Description">
             <English>A key that should open most CIV vehicle.</English>
@@ -174,7 +174,7 @@
             <Chinese>一組解鎖鑰匙 (可解鎖大部份紅方載具)</Chinese>
             <Chinesesimp>一组解锁钥匙（可解锁大部份红方载具）</Chinesesimp>
             <Hungarian>Egy kulcs, ami a KELET egységeinek legtöbb járművét ki tudja nyitni.</Hungarian>
-            <Ukrainian>Ключ для відкриття більшості машин Синіх.</Ukrainian>
+            <Ukrainian>Ключ для відкриття більшості машин Червоних.</Ukrainian>
         </Key>
         <Key ID="STR_ACE_VehicleLock_Item_Indp_Description">
             <English>A key that should open most INDEP vehicle.</English>
@@ -242,7 +242,7 @@
             <Chinese>一組解鎖鑰匙 (可解鎖大部份藍方載具)</Chinese>
             <Chinesesimp>一组解锁钥匙（可解锁大部份蓝方载具）</Chinesesimp>
             <Hungarian>Egy kulcs, ami a NYUGAT egységeinek legtöbb járművét ki tudja nyitni.</Hungarian>
-            <Ukrainian>Ключ для відкриття більшості машин Червоних.</Ukrainian>
+            <Ukrainian>Ключ для відкриття більшості машин Синіх.</Ukrainian>
         </Key>
         <Key ID="STR_ACE_VehicleLock_LockVehicleInventory_Description">
             <English>Locks the inventory of locked vehicles</English>

@@ -17,6 +17,14 @@
 
 #include "\z\ace\addons\main\script_macros.hpp"
 
+// Prefer the largest magazine that still fits what the turret has room for
+#define IS_BETTER_FIT(ammo,best,needed) ((best == -1) || ((ammo > best) && (ammo <= needed)))
+
+#define GET_NUMBER(config,default) (if (isNumber (config)) then {getNumber (config)} else {default})
+
+// How far a magazine source can be from a CSW and still be loadable from
+#define DISTANCE_SEARCH_RADIUS 5
+#define NEARBY_SOURCES_CACHE_EXPIRY 5
 
 #define DISTANCE_FROM_GUN 1.5
 #define RELATIVE_DIRECTION(direction) [DISTANCE_FROM_GUN, direction]
@@ -31,3 +39,7 @@
 #define M2_MASS 840 // 84 pound M2 Browning
 #define M2_SIGHT_MASS 62 // 4.2 pound Trijicon MGRS + ~2 pound mounting adaptor
 #define M2_SHIELD_MASS 550 // 55 pound ~800x450x8 millimeter steel plate and mounting arms
+
+#define PLACE_WAITING -1
+#define PLACE_CANCEL 0
+#define PLACE_APPROVE 1

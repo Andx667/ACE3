@@ -230,7 +230,7 @@ class CfgVehicles {
             class ACE_Weapon {
                 displayName = CSTRING(Weapon);
                 position = QUOTE(call DFUNC(getWeaponPos));
-                distance = 1.50;
+                distance = 2;
                 condition = "";
                 statement = "";
                 exceptions[] = {"isNotSwimming"};
@@ -330,7 +330,7 @@ class CfgVehicles {
                     displayName = CSTRING(LeaveGroup);
                     condition = QUOTE(count (units group _player) > 1);
                     exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting", "isNotOnLadder", "isNotRefueling"};
-                    statement = QUOTE(_oldGroup = units group _player; _newGroup = createGroup side group _player; [_player] joinSilent _newGroup; {_player reveal _x} forEach _oldGroup;);
+                    statement = QUOTE(private _oldGroup = units group _player; private _newGroup = createGroup side group _player; [_player] joinSilent _newGroup; {_player reveal _x} forEach _oldGroup;);
                     showDisabled = 1;
                     icon = QPATHTOF(UI\team\team_management_ca.paa);
                 };
